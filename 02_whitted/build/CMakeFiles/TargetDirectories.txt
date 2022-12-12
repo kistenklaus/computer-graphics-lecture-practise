@@ -1,0 +1,6 @@
+/home/karl/Documents/CG/cg_exercise_02/02_whitted/build/CMakeFiles/cg.dir
+/home/karl/Documents/CG/cg_exercise_02/02_whitted/build/CMakeFiles/edit_cache.dir
+/home/karl/Documents/CG/cg_exercise_02/02_whitted/build/CMakeFiles/rebuild_cache.dir
+/home/karl/Documents/CG/cg_exercise_02/cglib/build/cglib/CMakeFiles/cglib_cg_2.dir
+/home/karl/Documents/CG/cg_exercise_02/cglib/build/cglib/CMakeFiles/edit_cache.dir
+/home/karl/Documents/CG/cg_exercise_02/cglib/build/cglib/CMakeFiles/rebuild_cache.dir

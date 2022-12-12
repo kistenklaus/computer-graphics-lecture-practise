@@ -1,0 +1,21 @@
+set(CGLIB_SOURCE_FILES
+	src/core/camera.cpp
+	src/core/gui.cpp
+	src/core/image.cpp
+	src/core/parameters.cpp
+	src/core/stb.cpp
+	src/core/thread_pool.cpp
+	src/core/timer.cpp
+	src/imgui/imgui.cpp
+	src/imgui/imgui_draw.cpp
+	src/imgui/imgui_orient.cpp
+	src/imgui/imgui_impl_glfw_gl2.cpp
+	src/imgui/imgui_impl_glfw_gl3.cpp
+	src/rt/host_render.cpp
+	src/rt/material.cpp
+	src/rt/object.cpp
+	src/rt/raytracing_context.cpp
+	src/rt/raytracing_parameters.cpp
+	src/rt/renderer.cpp
+	src/rt/scene.cpp
+)

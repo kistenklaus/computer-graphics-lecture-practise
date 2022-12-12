@@ -1,0 +1,1 @@
+/sbin/c++  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -rdynamic CMakeFiles/cg.dir/src/main.cpp.o CMakeFiles/cg.dir/src/exercise_02.cpp.o -o /home/karl/Documents/CG/cg_exercise_02/02_whitted/cg  /home/karl/Documents/CG/cg_exercise_02/cglib/build/cglib/libcglib_cg_2.a -lGLEW -lglfw -lXxf86vm -lXrandr -lXi -lX11 -lOpenGL -lGLX -lGLU -lm -lstdc++ -lpthread 
