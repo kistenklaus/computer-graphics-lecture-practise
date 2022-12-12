@@ -1,0 +1,127 @@
+[
+{
+  "directory": "/media/sf_shared/cg_exercise_01/01_colors/build",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/src -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cg.dir/src/exercise_01.cpp.o -c /media/sf_shared/cg_exercise_01/01_colors/src/exercise_01.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/01_colors/src/exercise_01.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/01_colors/build",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/src -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cg.dir/src/main.cpp.o -c /media/sf_shared/cg_exercise_01/01_colors/src/main.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/01_colors/src/main.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/01_colors/build",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/src -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cg.dir/src/renderers.cpp.o -c /media/sf_shared/cg_exercise_01/01_colors/src/renderers.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/01_colors/src/renderers.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/core/camera.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/core/camera.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/core/camera.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/core/gui.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/core/gui.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/core/gui.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/core/image.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/core/image.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/core/image.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/core/parameters.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/core/parameters.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/core/parameters.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/core/stb.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/core/stb.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/core/stb.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/core/thread_pool.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/core/thread_pool.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/core/thread_pool.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/core/timer.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/core/timer.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/core/timer.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/imgui/imgui.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/imgui/imgui_draw.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui_draw.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/imgui/imgui_orient.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui_orient.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui_orient.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/imgui/imgui_impl_glfw_gl2.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui_impl_glfw_gl2.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui_impl_glfw_gl2.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/imgui/imgui_impl_glfw_gl3.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui_impl_glfw_gl3.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/imgui/imgui_impl_glfw_gl3.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/colors/cmf.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/colors/cmf.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/colors/cmf.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/colors/physics.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/colors/physics.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/colors/physics.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/colors/font.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/colors/font.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/colors/font.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/gl/fbo.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/gl/fbo.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/gl/fbo.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/gl/device_render.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/gl/device_render.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/gl/device_render.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/gl/renderer.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/gl/renderer.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/gl/renderer.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/gl/device_rendering_context.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/gl/device_rendering_context.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/gl/device_rendering_context.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/gl/shader.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/gl/shader.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/gl/shader.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/gl/program_definitions.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/gl/program_definitions.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/gl/program_definitions.cpp"
+},
+{
+  "directory": "/media/sf_shared/cg_exercise_01/cglib/build/cglib",
+  "command": "/usr/bin/c++ -DCGLIB_DIR=\\\"/media/sf_shared/cg_exercise_01/cglib\\\" -DGLM_ENABLE_EXPERIMENTAL -D_USE_MATH_DEFINES -I/media/sf_shared/cg_exercise_01/cglib/lib/glew/include -I/media/sf_shared/cg_exercise_01/cglib/lib/glfw/include -I/media/sf_shared/cg_exercise_01/cglib/include -isystem /media/sf_shared/cg_exercise_01/cglib/lib/glm  -O0 -Wall -Wundef -Wshadow -Werror=undef -Wfatal-errors  -g -std=gnu++20 -o CMakeFiles/cglib_cg_1.dir/src/core/file_util.cpp.o -c /media/sf_shared/cg_exercise_01/cglib/src/core/file_util.cpp",
+  "file": "/media/sf_shared/cg_exercise_01/cglib/src/core/file_util.cpp"
+}
+]

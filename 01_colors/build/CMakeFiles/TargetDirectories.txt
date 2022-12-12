@@ -1,0 +1,6 @@
+/media/sf_shared/cg_exercise_01/01_colors/build/CMakeFiles/cg.dir
+/media/sf_shared/cg_exercise_01/01_colors/build/CMakeFiles/edit_cache.dir
+/media/sf_shared/cg_exercise_01/01_colors/build/CMakeFiles/rebuild_cache.dir
+/media/sf_shared/cg_exercise_01/cglib/build/cglib/CMakeFiles/cglib_cg_1.dir
+/media/sf_shared/cg_exercise_01/cglib/build/cglib/CMakeFiles/edit_cache.dir
+/media/sf_shared/cg_exercise_01/cglib/build/cglib/CMakeFiles/rebuild_cache.dir
