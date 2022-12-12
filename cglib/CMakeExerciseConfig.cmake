@@ -1,0 +1,5 @@
+set (targets; cg)
+set (CXXFLAGS_cg " ")
+set (BUILD_TEST_FRAMEWORK 0)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)

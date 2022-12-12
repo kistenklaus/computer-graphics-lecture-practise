@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "/home/karl/Documents/CG/cg_exercise_03/cglib/build/cglib",
+					"jsonFile" : "directory-Debug-8ecb8416799b2f29427c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/karl/Documents/CG/cg_exercise_03/cglib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cg",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cg-Debug-f3dfad8ffb440ece8849.json",
+					"name" : "cg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cglib_cg_3::@07ba74342b931f98250b",
+					"jsonFile" : "target-cglib_cg_3-Debug-7574dc6ad16e5f171354.json",
+					"name" : "cglib_cg_3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/karl/Documents/CG/cg_exercise_03/03_textures",
+		"source" : "/home/karl/Documents/CG/cg_exercise_03/03_textures"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

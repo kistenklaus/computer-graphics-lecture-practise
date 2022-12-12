@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/home/karl/Documents/CG/cg_exercise_03/cglib/build/cglib",
+		"source" : "/home/karl/Documents/CG/cg_exercise_03/cglib"
+	}
+}
