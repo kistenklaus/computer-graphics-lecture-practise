@@ -3,7 +3,7 @@
 
 CMakeFiles/cg.dir/src/exercise_03.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_textures/src/exercise_03.cpp \
   /usr/include/stdc-predef.h \
-  /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/transform.h \
+  /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/intersection_tests.h \
   /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/glm.hpp \
   /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/_fixes.hpp \
   /usr/include/c++/12.2.0/cmath \
@@ -302,36 +302,18 @@ CMakeFiles/cg.dir/src/exercise_03.cpp.o: /home/karl/Documents/CG/cg_exercise_03/
   /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/type_vec1.inl \
   /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/func_integer_simd.inl \
   /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/simd/integer.h \
-  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/matrix_transform.hpp \
-  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/constants.hpp \
-  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/setup.hpp \
-  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/constants.inl \
-  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/matrix_transform.inl \
-  /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/intersection.h \
-  /usr/include/c++/12.2.0/memory \
-  /usr/include/c++/12.2.0/bits/allocator.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/12.2.0/bits/new_allocator.h \
-  /usr/include/c++/12.2.0/bits/memoryfwd.h \
-  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.0/ext/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/alloc_traits.h \
-  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
-  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/12.2.0/bits/align.h \
-  /usr/include/c++/12.2.0/bit \
-  /usr/include/c++/12.2.0/bits/uses_allocator.h \
-  /usr/include/c++/12.2.0/bits/unique_ptr.h \
-  /usr/include/c++/12.2.0/tuple \
-  /usr/include/c++/12.2.0/bits/invoke.h \
-  /usr/include/c++/12.2.0/bits/stl_function.h \
-  /usr/include/c++/12.2.0/backward/binders.h \
-  /usr/include/c++/12.2.0/bits/functional_hash.h \
+  /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/core/assert.h \
+  /usr/include/c++/12.2.0/exception \
+  /usr/include/c++/12.2.0/bits/exception_ptr.h \
+  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12.2.0/typeinfo \
   /usr/include/c++/12.2.0/bits/hash_bytes.h \
-  /usr/include/c++/12.2.0/ostream \
-  /usr/include/c++/12.2.0/ios \
-  /usr/include/c++/12.2.0/iosfwd \
+  /usr/include/c++/12.2.0/bits/nested_exception.h \
+  /usr/include/c++/12.2.0/stdexcept \
+  /usr/include/c++/12.2.0/string \
   /usr/include/c++/12.2.0/bits/stringfwd.h \
+  /usr/include/c++/12.2.0/bits/memoryfwd.h \
+  /usr/include/c++/12.2.0/bits/char_traits.h \
   /usr/include/c++/12.2.0/bits/postypes.h \
   /usr/include/c++/12.2.0/cwchar \
   /usr/include/wchar.h \
@@ -341,46 +323,30 @@ CMakeFiles/cg.dir/src/exercise_03.cpp.o: /home/karl/Documents/CG/cg_exercise_03/
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
-  /usr/include/c++/12.2.0/exception \
-  /usr/include/c++/12.2.0/bits/exception_ptr.h \
-  /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/12.2.0/typeinfo \
-  /usr/include/c++/12.2.0/bits/nested_exception.h \
-  /usr/include/c++/12.2.0/bits/char_traits.h \
+  /usr/include/c++/12.2.0/bits/allocator.h \
+  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/12.2.0/bits/new_allocator.h \
   /usr/include/c++/12.2.0/bits/localefwd.h \
   /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/12.2.0/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
+  /usr/include/c++/12.2.0/iosfwd \
   /usr/include/c++/12.2.0/cctype \
   /usr/include/ctype.h \
-  /usr/include/c++/12.2.0/bits/ios_base.h \
-  /usr/include/c++/12.2.0/ext/atomicity.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/time.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/sys/single_threaded.h \
-  /usr/include/c++/12.2.0/bits/locale_classes.h \
-  /usr/include/c++/12.2.0/string \
   /usr/include/c++/12.2.0/bits/ostream_insert.h \
   /usr/include/c++/12.2.0/bits/cxxabi_forced.h \
+  /usr/include/c++/12.2.0/bits/stl_function.h \
+  /usr/include/c++/12.2.0/backward/binders.h \
   /usr/include/c++/12.2.0/bits/refwrap.h \
+  /usr/include/c++/12.2.0/bits/invoke.h \
   /usr/include/c++/12.2.0/bits/range_access.h \
   /usr/include/c++/12.2.0/initializer_list \
   /usr/include/c++/12.2.0/bits/basic_string.h \
+  /usr/include/c++/12.2.0/ext/alloc_traits.h \
+  /usr/include/c++/12.2.0/bits/alloc_traits.h \
   /usr/include/c++/12.2.0/string_view \
+  /usr/include/c++/12.2.0/bits/functional_hash.h \
   /usr/include/c++/12.2.0/bits/ranges_base.h \
   /usr/include/c++/12.2.0/bits/max_size_type.h \
   /usr/include/c++/12.2.0/numbers \
@@ -403,10 +369,31 @@ CMakeFiles/cg.dir/src/exercise_03.cpp.o: /home/karl/Documents/CG/cg_exercise_03/
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/12.2.0/bits/charconv.h \
   /usr/include/c++/12.2.0/bits/basic_string.tcc \
+  /usr/include/c++/12.2.0/iostream \
+  /usr/include/c++/12.2.0/ostream \
+  /usr/include/c++/12.2.0/ios \
+  /usr/include/c++/12.2.0/bits/ios_base.h \
+  /usr/include/c++/12.2.0/ext/atomicity.h \
+  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/c++/12.2.0/bits/locale_classes.h \
   /usr/include/c++/12.2.0/bits/locale_classes.tcc \
   /usr/include/c++/12.2.0/system_error \
   /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/12.2.0/stdexcept \
   /usr/include/c++/12.2.0/streambuf \
   /usr/include/c++/12.2.0/bits/streambuf.tcc \
   /usr/include/c++/12.2.0/bits/basic_ios.h \
@@ -420,6 +407,24 @@ CMakeFiles/cg.dir/src/exercise_03.cpp.o: /home/karl/Documents/CG/cg_exercise_03/
   /usr/include/c++/12.2.0/bits/locale_facets.tcc \
   /usr/include/c++/12.2.0/bits/basic_ios.tcc \
   /usr/include/c++/12.2.0/bits/ostream.tcc \
+  /usr/include/c++/12.2.0/istream \
+  /usr/include/c++/12.2.0/bits/istream.tcc \
+  /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/transform.h \
+  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/matrix_transform.hpp \
+  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/constants.hpp \
+  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/setup.hpp \
+  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/constants.inl \
+  /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/matrix_transform.inl \
+  /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/intersection.h \
+  /usr/include/c++/12.2.0/memory \
+  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.0/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12.2.0/bits/align.h \
+  /usr/include/c++/12.2.0/bit \
+  /usr/include/c++/12.2.0/bits/uses_allocator.h \
+  /usr/include/c++/12.2.0/bits/unique_ptr.h \
+  /usr/include/c++/12.2.0/tuple \
   /usr/include/c++/12.2.0/bits/shared_ptr.h \
   /usr/include/c++/12.2.0/bits/shared_ptr_base.h \
   /usr/include/c++/12.2.0/bits/allocated_ptr.h \
@@ -483,11 +488,6 @@ CMakeFiles/cg.dir/src/exercise_03.cpp.o: /home/karl/Documents/CG/cg_exercise_03/
   /usr/include/c++/12.2.0/pstl/glue_numeric_defs.h \
   /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/object.h \
   /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/intersectable.h \
-  /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/intersection_tests.h \
-  /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/core/assert.h \
-  /usr/include/c++/12.2.0/iostream \
-  /usr/include/c++/12.2.0/istream \
-  /usr/include/c++/12.2.0/bits/istream.tcc \
   /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/raytracing_context.h \
   /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/raytracing_parameters.h \
   /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/epsilon.h \
@@ -1069,8 +1069,6 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 
 /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/core/camera.h:
 
-/usr/include/c++/12.2.0/istream:
-
 /usr/include/c++/12.2.0/numeric:
 
 /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/core/thread_local_data.h:
@@ -1137,6 +1135,26 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 
 /usr/include/c++/12.2.0/bits/shared_ptr.h:
 
+/usr/include/c++/12.2.0/tuple:
+
+/usr/include/c++/12.2.0/bits/unique_ptr.h:
+
+/usr/include/c++/12.2.0/bit:
+
+/usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/12.2.0/memory:
+
+/home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/constants.inl:
+
+/home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/constants.hpp:
+
+/home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/matrix_transform.hpp:
+
+/home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/transform.h:
+
+/usr/include/c++/12.2.0/istream:
+
 /usr/include/c++/12.2.0/bits/basic_ios.tcc:
 
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h:
@@ -1149,8 +1167,6 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 
 /usr/include/c++/12.2.0/bits/streambuf.tcc:
 
-/usr/include/c++/12.2.0/stdexcept:
-
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h:
 
 /home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/core/image.h:
@@ -1158,42 +1174,6 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 /usr/include/c++/12.2.0/system_error:
 
 /usr/include/c++/12.2.0/bits/locale_classes.tcc:
-
-/usr/include/c++/12.2.0/bits/basic_string.tcc:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/include/c++/12.2.0/stop_token:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/bits/getopt_posix.h:
-
-/usr/include/errno.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/c++/12.2.0/cstdio:
-
-/usr/include/asm/unistd_64.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/c++/12.2.0/bits/string_view.tcc:
-
-/usr/include/bits/wctype-wchar.h:
-
-/usr/include/c++/12.2.0/numbers:
-
-/usr/include/c++/12.2.0/bits/max_size_type.h:
-
-/usr/include/c++/12.2.0/bits/basic_string.h:
-
-/usr/include/c++/12.2.0/bits/ostream_insert.h:
-
-/usr/include/c++/12.2.0/string:
 
 /usr/include/c++/12.2.0/bits/locale_classes.h:
 
@@ -1225,6 +1205,54 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 
 /usr/include/c++/12.2.0/bits/ios_base.h:
 
+/usr/include/c++/12.2.0/ostream:
+
+/usr/include/c++/12.2.0/bits/basic_string.tcc:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/c++/12.2.0/stop_token:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/bits/getopt_posix.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/12.2.0/cstdio:
+
+/usr/include/asm/unistd_64.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/c++/12.2.0/bits/string_view.tcc:
+
+/usr/include/bits/wctype-wchar.h:
+
+/usr/include/c++/12.2.0/numbers:
+
+/usr/include/c++/12.2.0/bits/max_size_type.h:
+
+/usr/include/c++/12.2.0/bits/align.h:
+
+/usr/include/c++/12.2.0/bits/ranges_base.h:
+
+/usr/include/c++/12.2.0/bits/alloc_traits.h:
+
+/usr/include/c++/12.2.0/ext/alloc_traits.h:
+
+/usr/include/c++/12.2.0/bits/basic_string.h:
+
+/usr/include/c++/12.2.0/bits/invoke.h:
+
+/usr/include/c++/12.2.0/backward/binders.h:
+
+/usr/include/c++/12.2.0/bits/ostream_insert.h:
+
 /usr/include/ctype.h:
 
 /usr/include/c++/12.2.0/ctime:
@@ -1241,9 +1269,29 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 
 /usr/include/c++/12.2.0/bits/localefwd.h:
 
+/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/c++/12.2.0/bits/allocator.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/c++/12.2.0/pstl/glue_memory_defs.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h:
+
+/usr/include/c++/12.2.0/cwchar:
+
 /usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/12.2.0/bits/char_traits.h:
+
+/home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/imgui/imconfig.h:
+
+/usr/include/c++/12.2.0/bits/memoryfwd.h:
+
+/usr/include/c++/12.2.0/string:
+
+/usr/include/c++/12.2.0/stdexcept:
 
 /usr/include/c++/12.2.0/bits/nested_exception.h:
 
@@ -1254,52 +1302,6 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 /usr/include/c++/12.2.0/pstl/glue_numeric_defs.h:
 
 /usr/include/c++/12.2.0/exception:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/c++/12.2.0/pstl/glue_memory_defs.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h:
-
-/usr/include/c++/12.2.0/cwchar:
-
-/usr/include/c++/12.2.0/ostream:
-
-/usr/include/c++/12.2.0/backward/binders.h:
-
-/usr/include/c++/12.2.0/bits/invoke.h:
-
-/usr/include/c++/12.2.0/tuple:
-
-/usr/include/c++/12.2.0/bits/unique_ptr.h:
-
-/usr/include/c++/12.2.0/bit:
-
-/usr/include/c++/12.2.0/bits/ranges_base.h:
-
-/usr/include/c++/12.2.0/bits/align.h:
-
-/usr/include/c++/12.2.0/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/12.2.0/bits/alloc_traits.h:
-
-/usr/include/c++/12.2.0/ext/alloc_traits.h:
-
-/home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/imgui/imconfig.h:
-
-/usr/include/c++/12.2.0/bits/memoryfwd.h:
-
-/usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/c++/12.2.0/bits/allocator.h:
-
-/usr/include/c++/12.2.0/memory:
-
-/home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/constants.inl:
-
-/home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/constants.hpp:
-
-/home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/matrix_transform.hpp:
 
 /usr/include/c++/12.2.0/ratio:
 
@@ -1380,10 +1382,6 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 /usr/include/bits/posix2_lim.h:
 
 /usr/include/c++/12.2.0/concepts:
-
-/home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/intersection_tests.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h:
 
 /usr/include/c++/12.2.0/streambuf:
 
@@ -1541,21 +1539,19 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vbmivlintrin.h:
 
+/usr/include/c++/12.2.0/bits/std_abs.h:
+
+/usr/include/c++/12.2.0/bits/std_function.h:
+
+/usr/include/c++/12.2.0/bits/stl_algobase.h:
+
+/usr/include/bits/types/wint_t.h:
+
+/home/karl/Documents/CG/cg_exercise_03/03_textures/src/exercise_03.cpp:
+
 /usr/include/c++/12.2.0/tr1/special_function_util.h:
 
 /usr/include/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/12.2.0/bits/functional_hash.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bf16vlintrin.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/bits/sched.h:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/features.h:
 
 /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/type_mat4x3.inl:
 
@@ -1572,16 +1568,6 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 /usr/include/c++/12.2.0/tr1/ell_integral.tcc:
 
 /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/type_vec4.inl:
-
-/usr/include/c++/12.2.0/bits/std_function.h:
-
-/usr/include/c++/12.2.0/bits/stl_algobase.h:
-
-/usr/include/c++/12.2.0/bits/std_abs.h:
-
-/usr/include/bits/types/wint_t.h:
-
-/home/karl/Documents/CG/cg_exercise_03/03_textures/src/exercise_03.cpp:
 
 /usr/include/bits/types/clock_t.h:
 
@@ -1602,6 +1588,26 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/f16cintrin.h:
 
 /usr/include/stdlib.h:
+
+/usr/include/c++/12.2.0/bits/functional_hash.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bf16vlintrin.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/features.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h:
+
+/home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/intersection_tests.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/immintrin.h:
 
 /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/gtc/matrix_transform.inl:
 
@@ -1638,14 +1644,6 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 /usr/include/gnu/stubs.h:
 
 /usr/include/stdc-predef.h:
-
-/home/karl/Documents/CG/cg_exercise_03/cglib/include/cglib/rt/transform.h:
-
-/usr/include/c++/12.2.0/bits/atomic_base.h:
-
-/usr/include/c++/12.2.0/ext/atomicity.h:
-
-/usr/include/bits/endian.h:
 
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h:
 
@@ -1765,6 +1763,12 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 
 /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/compute_vector_relational.hpp:
 
+/usr/include/c++/12.2.0/bits/atomic_base.h:
+
+/usr/include/c++/12.2.0/ext/atomicity.h:
+
+/usr/include/bits/endian.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/sgxintrin.h:
 
 /usr/include/bits/types/__sigset_t.h:
@@ -1841,9 +1845,9 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 
 /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/type_vec.hpp:
 
-/usr/include/c++/12.2.0/bits/cxxabi_init_exception.h:
-
 /usr/include/c++/12.2.0/ios:
+
+/usr/include/c++/12.2.0/bits/cxxabi_init_exception.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xsavecintrin.h:
 
@@ -1988,10 +1992,6 @@ CMakeFiles/cg.dir/src/main.cpp.o: /home/karl/Documents/CG/cg_exercise_03/03_text
 /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/func_common.inl:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/clzerointrin.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/immintrin.h:
 
 /home/karl/Documents/CG/cg_exercise_03/cglib/lib/glm/glm/detail/func_exponential.inl:
 

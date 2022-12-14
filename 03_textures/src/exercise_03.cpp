@@ -1,3 +1,4 @@
+#include "cglib/rt/intersection_tests.h"
 #include "cglib/rt/transform.h"
 #include <cglib/core/thread_local_data.h>
 #include <cglib/rt/intersection.h>
@@ -14,6 +15,7 @@
 #include <cglib/core/image.h>
 
 #include <algorithm>
+#include <cmath>
 #include <glm/detail/type_mat.hpp>
 #include <glm/matrix.hpp>
 #include <memory>
@@ -89,14 +91,14 @@ glm::vec4 ImageTexture::evaluate_bilinear(int level,
 
   const glm::vec2 st = uv * glm::vec2(mip_levels[level]->getWidth(),
                                       mip_levels[level]->getHeight());
-  const glm::vec2 ist = glm::vec2((int)(st.x + 0.5f), (st.y + 0.5f));
+  const glm::vec2 ist =
+      glm::vec2(std::floor(st.x + 0.5f), std::floor(st.y + 0.5f));
   const float alpha = st.x - (ist.x - 0.5f);
   const float beta = st.y - (ist.y - 0.5f);
-  const glm::vec4 A = alpha * get_texel(level, ist.x - 1, ist.y) +
-                      (1.0f - alpha) * get_texel(level, ist.x, ist.y);
-  const glm::vec4 B = alpha * get_texel(level, ist.x, ist.y - 1) +
-                      (1.0f - alpha) * get_texel(level, ist.x - 1, ist.y - 1);
-  return beta * A + (1.0f - beta) * B;
+  return alpha * beta * get_texel(level, ist.x, ist.y) +
+         (1 - alpha) * beta * get_texel(level, ist.x - 1, ist.y) +
+         alpha * (1 - beta) * get_texel(level, ist.x, ist.y - 1) +
+         (1 - alpha) * (1 - beta) * get_texel(level, ist.x - 1, ist.y - 1);
 }
 
 // -----------------------------------------------------------------------------
@@ -121,7 +123,6 @@ void ImageTexture::create_mipmap() {
   /* this are the dimensions of the original texture/image */
   int size_x = mip_levels[0]->getWidth();
   int size_y = mip_levels[0]->getHeight();
-
   cg_assert("must be power of two" && !(size_x & (size_x - 1)));
   cg_assert("must be power of two" && !(size_y & (size_y - 1)));
   while (true) {
@@ -136,8 +137,10 @@ void ImageTexture::create_mipmap() {
       for (int y = 0; y < size_y; y++) {
         glm::vec4 sum = glm::vec4(0);
         int count = 0;
-        for (int dx = 0; dx < 2 && (2 * x + dx) < prev_mipmap->getWidth(); dx++) {
-          for (int dy = 0; dy < 2 && (2 * y + dy) < prev_mipmap->getHeight(); dy++) {
+        for (int dx = 0; dx < 2 && (2 * x + dx) < prev_mipmap->getWidth();
+             dx++) {
+          for (int dy = 0; dy < 2 && (2 * y + dy) < prev_mipmap->getHeight();
+               dy++) {
             sum += prev_mipmap->getPixel(2 * x + dx, 2 * y + dy);
             count += 1;
           }
@@ -173,6 +176,11 @@ glm::vec2 Object::compute_uv_aabb_size(const Ray rays[4],
                                          isect.position, isect.position};
 
   for (int i = 0; i < 4; ++i) {
+    float t;
+    if (intersect_plane(rays[i].origin, rays[i].direction, isect.position,
+                        isect.normal, &t)) {
+      intersection_positions[i] = rays[i].origin + t * rays[i].direction;
+    }
     // todo: compute intersection positions using a ray->plane
     // intersection
   }
@@ -181,8 +189,17 @@ glm::vec2 Object::compute_uv_aabb_size(const Ray rays[4],
   glm::vec2 intersection_uvs[4];
   get_intersection_uvs(intersection_positions, isect, intersection_uvs);
 
-  // TODO: compute dudv = length of sides of AABB in uv space
-  return glm::vec2(0.0);
+  glm::vec2 u = glm::vec2(std::numeric_limits<float>().infinity(),
+                          -std::numeric_limits<float>().infinity());
+  glm::vec2 v = glm::vec2(std::numeric_limits<float>().infinity(),
+                          -std::numeric_limits<float>().infinity());
+  for(int i=0;i<4;i++){
+    u.x = std::min(intersection_positions[i].x, u.x);
+    u.y = std::max(intersection_positions[i].x, u.y);
+    v.x = std::min(intersection_positions[i].y, v.x);
+    v.y = std::max(intersection_positions[i].y, v.y);
+  }
+  return glm::vec2(u.y - u.x, v.y - v.x);
 }
 
 /*
@@ -202,7 +219,14 @@ glm::vec2 Object::compute_uv_aabb_size(const Ray rays[4],
  */
 glm::vec4 ImageTexture::evaluate_trilinear(glm::vec2 const &uv,
                                            glm::vec2 const &dudv) const {
-  return glm::vec4(0.f);
+  glm::vec2 st = dudv * glm::vec2(mip_levels[0]->getWidth(), mip_levels[0]->getHeight());
+  float s = std::max(st.x, st.y);
+  float T = std::log2(s);
+  float t0 = std::floor(T);
+  float t1 = std::ceil(T);
+  if(t0 == t1)return get_texel(t0, uv.x, uv.y);
+  float alpha = t1 - t0;
+  return alpha * get_texel(t0, uv.x, uv.y) + (1.0f-alpha) * get_texel(t1, uv.x, uv.y);
 }
 
 /*
